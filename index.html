@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexuzada | O Seu Bot para Discord</title>
-   
+    
     <!-- Carrega o Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-   
+    
     <!-- Carrega a fonte "Inter" do Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-   
+    
     <!-- CSS Customizado -->
     <style>
         /* Define a fonte padrão */
@@ -28,7 +28,7 @@
             width: 100%;
             height: 100%;
             /* Fica atrás de todo o conteúdo */
-            z-index: -1;
+            z-index: -1; 
         }
 
         /* Animação de "flutuação" */
@@ -73,14 +73,14 @@
         <nav class="bg-gray-900/70 backdrop-blur-lg border-b border-gray-700/50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-20">
-                   
+                    
                     <!-- Logo com Gradiente -->
                     <a href="#inicio" class="flex-shrink-0">
                         <div class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
                             Nexuzada
                         </div>
                     </a>
-                   
+                    
                     <!-- Links de Navegação (Desktop) -->
                     <div class="hidden md:flex md:items-center md:space-x-8">
                         <a href="#inicio" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Início</a>
@@ -89,7 +89,7 @@
                         <a href="#comentarios" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Comentários</a>
                         <a href="#suporte" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium">Suporte</a>
                     </div>
-                   
+                    
                     <!-- Botão "Adicionar ao Discord" (Desktop) -->
                     <div class="hidden md:block">
                         <!-- Substitua o 'href' pelo seu link de convite real do bot -->
@@ -128,11 +128,11 @@
 
     <!-- ===== MAIN CONTENT ===== -->
     <main>
-       
+        
         <!-- ===== SEÇÃO HERO (INÍCIO) ===== -->
         <section id="inicio" class="pt-40 pb-20 min-h-screen flex items-center">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
-               
+                
                 <!-- Coluna da Esquerda (Texto e Botões) -->
                 <div class="text-center lg:text-left">
                     <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight">
@@ -192,7 +192,7 @@
 
                 <!-- Grid de Cards com Efeitos Hover (Agora com 6) -->
                 <div class="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-                   
+                    
                     <!-- Card 1 -->
                     <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-cyan-500/20 hover:-translate-y-2 transform cursor-pointer">
                         <div class="flex-shrink-0">
@@ -205,7 +205,7 @@
                             Sistema de log, auto-moderação, ban, kick, mute e tudo o que precisa para manter o seu servidor seguro e limpo.
                         </p>
                     </div>
-                   
+                    
                     <!-- Card 2 -->
                     <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-purple-500/20 hover:-translate-y-2 transform cursor-pointer" style="transition-delay: 150ms;">
                         <div class="flex-shrink-0">
@@ -218,7 +218,7 @@
                             Oiça as suas músicas favoritas do YouTube, Spotify e mais, com alta qualidade de áudio e sistema de fila.
                         </p>
                     </div>
-                   
+                    
                     <!-- Card 3 -->
                     <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-pink-500/20 hover:-translate-y-2 transform cursor-pointer" style="transition-delay: 300ms;">
                         <div class="flex-shrink-0">
@@ -231,7 +231,7 @@
                             Incentive a atividade no seu servidor! Membros ganham XP por conversar e sobem de nível, com cargos automáticos.
                         </p>
                     </div>
-                   
+                    
                     <!-- Card 4 (NOVO) -->
                     <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700 transition-all duration-300 hover:shadow-green-500/20 hover:-translate-y-2 transform cursor-pointer" style="transition-delay: 450ms;">
                         <div class="flex-shrink-0">
@@ -276,4 +276,343 @@
                                   <path stroke-linecap="round" stroke-linejoin="round" d="M17.66 15.84c-.688 0-1.25-.561-1.25-1.25s.562-1.25 1.25-1.25c.688 0 1.25.561 1.25 1.25s-.562 1.25-1.25 1.25z" />
                                   <path stroke-linecap="round" stroke-linejoin="round" d="M6.34 8.16c-.688 0-1.25-.561-1.25-1.25s.562-1.25 1.25-1.25c.688 0 1.25.561 1.25 1.25s-.562 1.25-1.25 1.25z" />
                                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.66 8.16c-.688 0-1.25-.561-1.25-1.25s.562-1.25 1.25-1.25c.688 0 1.25.561 1.25 1.25s-.562 1.25-1.25 1.25z" />
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.75V9.43a.96.96 0 00-1.406-.826l-1.32.762a1.01 1.01 0 01-1.041 0l-1.32-.762a.96.96 0 00-1.406 0l-1.32.762a1.01 1.01 0 01-1.041 0l-1.32-.762a.96.96 0 00-1.406 0l-1.32.762a1.01 1.01 0 01-1.041 0l-1.32-.762a.96.96 0 00-1.406.826v3.32a1.01 1.01 0 01-.52.874l-1.32.762a.96.96 0 000 1.652l1.32.762c.307.178.52.5.52.874v3.32a.96.96 0 001.406.826l1.32-.762a1.01 1.01 0 011.041 0l1.32.762a.9
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12.75V9.43a.96.96 0 00-1.406-.826l-1.32.762a1.01 1.01 0 01-1.041 0l-1.32-.762a.96.96 0 00-1.406 0l-1.32.762a1.01 1.01 0 01-1.041 0l-1.32-.762a.96.96 0 00-1.406 0l-1.32.762a1.01 1.01 0 01-1.041 0l-1.32-.762a.96.96 0 00-1.406.826v3.32a1.01 1.01 0 01-.52.874l-1.32.762a.96.96 0 000 1.652l1.32.762c.307.178.52.5.52.874v3.32a.96.96 0 001.406.826l1.32-.762a1.01 1.01 0 011.041 0l1.32.762a.96.96 0 001.406 0l1.32-.762a1.01 1.01 0 011.041 0l1.32.762a.96.96 0 001.406 0l1.32-.762a1.01 1.01 0 011.041 0l1.32.762a.96.96 0 001.406-.826v-3.32a1.01 1.01 0 01.52-.874l1.32-.762a.96.96 0 000-1.652l-1.32-.762a1.01 1.01 0 01-.52-.874z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="mt-6 text-xl font-bold text-white">Painel de Controlo Web</h3>
+                        <p class="mt-4 text-base text-gray-400">
+                            Configure facilmente o bot através de um painel web intuitivo. Sem necessidade de decorar comandos complexos.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== SEÇÃO DE ESTATÍSTICAS ===== -->
+        <section id="estatisticas" class="py-24 scroll-reveal">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold text-cyan-400 tracking-wide uppercase">Confiança</h2>
+                    <p class="mt-2 text-4xl font-extrabold text-white sm:text-5xl">
+                        Junte-se a Milhares de Comunidades
+                    </p>
+                    <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-400">
+                        O Nexuzada já está a potenciar servidores de todos os tamanhos, 24 horas por dia.
+                    </p>
+                </div>
+                
+                <!-- Contadores Animados -->
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center bg-gray-800/50 p-8 rounded-2xl">
+                        <span id="statServidores" class="block text-5xl font-bold text-cyan-400">0</span>
+                        <span class="mt-2 block text-lg font-medium text-gray-300">Servidores Ativos</span>
+                    </div>
+                    <div class="text-center bg-gray-800/50 p-8 rounded-2xl">
+                        <span id="statUsuarios" class="block text-5xl font-bold text-purple-400">0</span>
+                        <span class="mt-2 block text-lg font-medium text-gray-300">Usuários Geridos</span>
+                    </div>
+                    <div class="text-center bg-gray-800/50 p-8 rounded-2xl">
+                        <span id="statComandos" class="block text-5xl font-bold text-pink-400">0</span>
+                        <span class="mt-2 block text-lg font-medium text-gray-300">Comandos por Dia</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NOVA SECÇÃO DE COMENTÁRIOS ===== -->
+        <section id="comentarios" class="py-24 bg-gray-800/60 scroll-reveal">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-base font-semibold text-cyan-400 tracking-wide uppercase">Comentários</h2>
+                    <p class="mt-2 text-4xl font-extrabold text-white sm:text-5xl">
+                        A Voz da Comunidade
+                    </p>
+                </div>
+                
+                <div class="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    
+                    <!-- Comentário 1 -->
+                    <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700">
+                        <p class="text-gray-300 italic">"Este bot é incrível! Substituiu 3 outros bots que eu usava. A moderação é perfeita e o sistema de música nunca falha."</p>
+                        <div class="flex items-center mt-6">
+                            <img class="w-12 h-12 rounded-full" src="https://placehold.co/48x48/7c3aed/ffffff?text=A" alt="Avatar User 1"
+                                 onerror="this.src='https://placehold.co/48x48/7c3aed/ffffff?text=A'">
+                            <div class="ml-4">
+                                <div class="text-base font-semibold text-white">Alex "Raptor"</div>
+                                <div class="text-sm text-gray-400">Admin do "Gamers Den"</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comentário 2 -->
+                    <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700" style="transition-delay: 150ms;">
+                        <p class="text-gray-300 italic">"O Nexuzada é super fácil de configurar com o painel web. Finalmente um bot que não precisa de mil comandos de setup. 10/10!"</p>
+                        <div class="flex items-center mt-6">
+                            <img class="w-12 h-12 rounded-full" src="https://placehold.co/48x48/db2777/ffffff?text=M" alt="Avatar User 2"
+                                 onerror="this.src='https://placehold.co/48x48/db2777/ffffff?text=M'">
+                            <div class="ml-4">
+                                <div class="text-base font-semibold text-white">Mariana</div>
+                                <div class="text-sm text-gray-400">Dona do "Study Group PT"</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comentário 3 -->
+                    <div class="scroll-reveal bg-gray-900 p-8 rounded-2xl shadow-lg border border-gray-700" style="transition-delay: 300ms;">
+                        <p class="text-gray-300 italic">"O sistema de níveis e economia deu uma nova vida ao meu servidor. A comunidade está mais ativa do que nunca!"</p>
+                        <div class="flex items-center mt-6">
+                            <img class="w-12 h-12 rounded-full" src="https://placehold.co/48x48/16a34a/ffffff?text=T" alt="Avatar User 3"
+                                 onerror="this.src='https://placehold.co/48x48/16a34a/ffffff?text=T'">
+                            <div class="ml-4">
+                                <div class="text-base font-semibold text-white">Tiago</div>
+                                <div class="text-sm text-gray-400">Moderador</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NOVA SECÇÃO CALL TO ACTION (CTA) ===== -->
+        <section id="cta" class="py-24 scroll-reveal">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 rounded-2xl shadow-2xl p-12 text-center">
+                    <h2 class="text-4xl font-extrabold text-white">
+                        Pronto para levar o seu servidor para o próximo nível?
+                    </h2>
+                    <p class="mt-4 text-xl text-gray-200">
+                        Junte-se a milhares de outros servidores que confiam no Nexuzada.
+                    </p>
+                    <a href="#" class="mt-8 w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 border border-transparent text-base font-bold rounded-lg text-gray-900 bg-white hover:bg-gray-200 transition-all duration-300 transform hover:scale-105">
+                        Adicionar ao Discord Agora
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER (SUPORTE) ===== -->
+    <footer id="suporte" class="bg-gray-950/80 border-t border-gray-800/50">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+                <div class="space-y-8 xl:col-span-1">
+                    <div class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600">
+                        Nexuzada
+                    </div>
+                    <p class="text-gray-400 text-base">
+                        O seu servidor, no próximo nível.
+                    </p>
+                    <div class="flex space-x-6">
+                        <!-- Links Sociais (Adicionei Discord) -->
+                        <a href="#" class="text-gray-400 hover:text-gray-300 transition-colors duration-300">
+                            <span class="sr-only">Discord</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                               <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.9821-1.54.0743.0743 0 00-.0785.0371c-.211.3753-.4464.8254-.6083 1.25a18.06 18.06 0 00-5.277 0 16.98 16.98 0 00-.6386-1.29.0743.0743 0 00-.0785-.037 19.7363 19.7363 0 00-4.9821 1.54.0743.0743 0 00-.0464.0632 21.5864 21.5864 0 00-1.638 7.6669c0 3.2048 1.638 6.0987 4.1983 8.1486.0743.0743.1687.037.199-.0464a16.5864 16.5864 0 00.9324-1.6177.0743.0743 0 00-.028-0.0934 13.06 13.06 0 01-1.8887-1.348.0743.0743 0 01.0186-.112c.6083-.3472 1.1423-.7327 1.608-1.1465a.0743.0743 0 01.0785-.0094c.961.491 1.99.886 3.06.1172a.0743.0743 0 01.0691 0c1.07.769 2.1.375 3.06-.1172a.0743.0743 0 01.0785.0094c.4657.4138.9997.8087 1.608 1.1465a.0743.0743 0 01.0186.112 13.09 13.09 0 01-1.8887 1.348.0743.0743 0 00-.028.0934 16.5864 16.5864 0 00.9324 1.6177.0743.0743 0 00.199.0464c2.5603-2.05 4.1983-4.9438 4.1983-8.1486a21.5864 21.5864 0 00-1.638-7.6669.0743.0743 0 00-.0464-.0632zM8.02 15.3312c-.99 0-1.79-.7905-1.79-1.7704s.8-1.7704 1.79-1.7704c1.0186 0 1.82.7905 1.79 1.7704 0 .9798-.8 1.7704-1.79 1.7704zm7.96 0c-.99 0-1.79-.7905-1.79-1.7704s.8-1.7704 1.79-1.7704c1.0186 0 1.82.7905 1.79 1.7704 0 .9798-.8 1.7704-1.79 1.7704z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-300 transition-colors duration-300">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+                    <div class="md:grid md:grid-cols-2 md:gap-8">
+                        <div>
+                            <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Bot</h3>
+                            <ul role="list" class="mt-4 space-y-4">
+                                <li><a href="#funcionalidades" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Comandos</a></li>
+                                <li><a href="#" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Status</a></li>
+                                <li><a href="#" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Vote em Nós</a></li>
+                            </ul>
+                        </div>
+                        <div class="mt-12 md:mt-0">
+                            <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Comunidade</h3>
+                            <ul role="list" class="mt-4 space-y-4">
+                                <li><a href="#suporte" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Servidor de Suporte</a></li>
+                                <li><a href="#" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Documentação</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:grid md:grid-cols-2 md:gap-8">
+                        <div>
+                            <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase">Legal</h3>
+                            <ul role="list" class="mt-4 space-y-4">
+                                <li><a href="#" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Privacidade</a></li>
+                                <li><a href="#" class="text-base text-gray-400 hover:text-gray-300 transition-colors duration-300">Termos de Uso</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8">
+                <p class="text-base text-gray-400 xl:text-center">&copy; 2025 Nexuzada Bot. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // --- Lógica do Menu Mobile ---
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Fecha o menu mobile ao clicar em um link
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // --- Lógica do Contador de Estatísticas ---
+            function animateCounter(el, start, end, duration) {
+                let startTime = null;
+                const step = (timestamp) => {
+                    if (!startTime) startTime = timestamp;
+                    const progress = Math.min((timestamp - startTime) / duration, 1);
+                    el.textContent = Math.floor(progress * (end - start) + start).toLocaleString('pt-BR');
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            // --- Lógica da Animação de Scroll (Intersection Observer) ---
+            const statsEl = document.getElementById('estatisticas');
+            let statsAnimated = false; // Flag para animar apenas uma vez
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+
+                        // Se a secção de estatísticas estiver visível e ainda não foi animada
+                        if (entry.target.id === 'estatisticas' && !statsAnimated) {
+                            animateCounter(document.getElementById('statServidores'), 0, 12850, 2000); // Ex: 12.850 servidores
+                            animateCounter(document.getElementById('statUsuarios'), 0, 1420300, 2000); // Ex: 1.420.300 usuários
+                            animateCounter(document.getElementById('statComandos'), 0, 350000, 2000);  // Ex: 350.000 comandos
+                            statsAnimated = true; // Marca como animado
+                        }
+                    }
+                });
+            }, {
+                threshold: 0.1 // Dispara quando 10% do elemento está visível
+            });
+
+            // Observa todos os elementos com a classe .scroll-reveal
+            document.querySelectorAll('.scroll-reveal').forEach(el => {
+                observer.observe(el);
+            });
+
+
+            // --- Lógica do Fundo Animado (Particles) ---
+            const canvas = document.getElementById('particle-canvas');
+            const ctx = canvas.getContext('2d');
+            let particlesArray;
+
+            // Ajusta o tamanho do canvas para o tamanho da janela
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            resizeCanvas();
+
+            // Classe da Partícula
+            class Particle {
+                constructor() {
+                    this.x = Math.random() * canvas.width;
+                    this.y = Math.random() * canvas.height;
+                    this.size = Math.random() * 2 + 1; // Tamanho: 1 a 3px
+                    this.speedX = Math.random() * 1 - 0.5; // Movimento horizontal
+                    this.speedY = Math.random() * 1 - 0.5; // Movimento vertical
+                    this.color = 'rgba(107, 114, 128, 0.5)'; // Cor (gray-500 com opacidade)
+                }
+                // Atualiza a posição da partícula
+                update() {
+                    if (this.x > canvas.width || this.x < 0) this.speedX = -this.speedX;
+                    if (this.y > canvas.height || this.y < 0) this.speedY = -this.speedY;
+                    this.x += this.speedX;
+                    this.y += this.speedY;
+                }
+                // Desenha a partícula
+                draw() {
+                    ctx.fillStyle = this.color;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+
+            // Cria o array de partículas
+            function initParticles() {
+                particlesArray = [];
+                let numberOfParticles = (canvas.height * canvas.width) / 9000;
+                for (let i = 0; i < numberOfParticles; i++) {
+                    particlesArray.push(new Particle());
+                }
+            }
+            initParticles();
+
+            // Desenha linhas entre partículas próximas
+            function connectParticles() {
+                let opacityValue = 1;
+                for (let a = 0; a < particlesArray.length; a++) {
+                    for (let b = a; b < particlesArray.length; b++) {
+                        let distance = ((particlesArray[a].x - particlesArray[b].x) * (particlesArray[a].x - particlesArray[b].x))
+                                     + ((particlesArray[a].y - particlesArray[b].y) * (particlesArray[a].y - particlesArray[b].y));
+                        
+                        if (distance < (canvas.width / 7) * (canvas.height / 7)) {
+                            opacityValue = 1 - (distance / 20000);
+                            ctx.strokeStyle = 'rgba(148, 163, 184,' + opacityValue + ')'; // Cor (slate-400 com opacidade)
+                            ctx.lineWidth = 1;
+                            ctx.beginPath();
+                            ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
+                            ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
+                            ctx.stroke();
+                        }
+                    }
+                }
+            }
+
+            // Loop de Animação
+            function animate() {
+                // Limpa o canvas com um fundo escuro e opacidade baixa para criar um "rasto"
+                ctx.fillStyle = 'rgba(17, 24, 39, 0.1)'; // bg-gray-900 com opacidade
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                for (let i = 0; i < particlesArray.length; i++) {
+                    particlesArray[i].update();
+                    particlesArray[i].draw();
+                }
+                connectParticles();
+                
+                requestAnimationFrame(animate);
+            }
+            
+            // Inicia a animação
+            animate();
+
+            // Recria as partículas quando a janela é redimensionada
+            window.addEventListener('resize', () => {
+                resizeCanvas();
+                initParticles();
+            });
+
+        });
+    </script>
+
+</body>
+</html>
